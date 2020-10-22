@@ -1,0 +1,1 @@
+SELECT * FROM world.city LEFT JOIN world.countrylanguage on world.city.CountryCode = world.countrylanguage.CountryCode WHERE world.countrylanguage.Language = 'Dutch';

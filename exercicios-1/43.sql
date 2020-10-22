@@ -1,0 +1,1 @@
+SELECT * FROM world.country WHERE world.country.Code ='BRA' AND world.country.Population > 1000000;

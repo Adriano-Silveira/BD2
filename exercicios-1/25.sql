@@ -1,0 +1,1 @@
+SELECT * FROM psdb.employees WHERE psdb.employees.first_name='Yinghua' OR psdb.employees.first_name='Elvis' AND psdb.employees.gender='M';

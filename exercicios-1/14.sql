@@ -1,0 +1,1 @@
+SELECT * FROM psdb.employees order by psdb.employees.emp_no desc limit 100;

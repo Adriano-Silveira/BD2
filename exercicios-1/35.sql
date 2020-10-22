@@ -1,0 +1,1 @@
+SELECT * FROM psdb.employees WHERE psdb.employees.emp_no IN(494831,479832,599833,499832) AND psdb.employees.gender BETWEEN 'F' AND 'M';

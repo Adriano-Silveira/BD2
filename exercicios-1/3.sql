@@ -1,0 +1,1 @@
+SELECT DISTINCT psdb.employees.first_name FROM psdb.employees;
