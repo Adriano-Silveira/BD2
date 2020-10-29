@@ -1,2 +1,2 @@
-SELECT world.country.Name,world.country.Continent,world.country.Region,world.country.Population,world.city.Name,world.city.District,world.city.Population,world.countrylanguage.Language FROM world.country RIGHT JOIN world.city on world.country.Code=world.city.CountryCode 
-RIGHT JOIN world.countrylanguage on world.country.Code=world.countrylanguage.CountryCode  Where world.country.Continent='Europe';
+SELECT world.country.Name,world.country.Continent,world.country.Region,world.country.Population,world.city.Name,world.city.District,world.city.Population,world.countrylanguage.Language FROM world.country INNER JOIN world.city on world.country.Code=world.city.CountryCode 
+INNER JOIN world.countrylanguage on world.country.Code=world.countrylanguage.CountryCode  Where world.country.Continent='Europe';
