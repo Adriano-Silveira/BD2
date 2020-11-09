@@ -1,0 +1,2 @@
+SELECT sakila.category.name, SUM(sakila.film_category.category_id) AS cantidad FROM sakila.category INNER JOIN sakila.film_category 
+ON sakila.film_category.category_id = sakila.category.category_id  GROUP BY sakila.category.category_id;

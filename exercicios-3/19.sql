@@ -1,0 +1,1 @@
+SELECT SUM(sakila.payment.amount) AS SUMA from sakila.payment;

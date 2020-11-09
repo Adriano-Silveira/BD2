@@ -1,0 +1,2 @@
+SELECT sakila.staff.staff_id, sakila.staff.first_name, sakila.staff.last_name, SUM(sakila.payment.staff_id) AS cobrança FROM sakila.staff 
+INNER JOIN sakila.payment ON sakila.payment.staff_id = sakila.staff.staff_id GROUP BY sakila.payment.staff_id;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS cantidad_paises from world.country;
